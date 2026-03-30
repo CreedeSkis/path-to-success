@@ -50,7 +50,7 @@ h3 { font-size: 1.5em; margin-bottom: 0.75rem;text-align: center; }
 h4 { font-size: 1.15em; margin-bottom: 0.35rem;text-align: center; }
 
 /* HEADER */
-.header {
+.head {
   text-align: center;
   padding: 2rem 1rem;
   background: var(--lavender);
@@ -232,6 +232,8 @@ tr:last-child td {
 }
 
 .footer a {
+  text-align: center;
   color: var(--lavender);
+  padding: 1.5rem 0;
   text-decoration: none;
 }
