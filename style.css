@@ -118,7 +118,7 @@ p {
 }
 
 .why-section {
-  background-color: #252845;
+  background-color: #b2243c;
 }
 
 .pricing-section {
@@ -135,7 +135,7 @@ p {
   margin-bottom: 2.5rem;
   border-radius: 1rem;
   padding: 1.5rem;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: #222533;
 }
 
 .service-item {
@@ -194,7 +194,7 @@ th {
 }
 
 tr:nth-child(even) td {
-  background-color: rgba(255, 255, 255, 0.03);
+  background-color: #222533;
 }
 
 /* CTA */
@@ -227,7 +227,7 @@ tr:nth-child(even) td {
 
 /* Footer */
 .site-footer {
-  background-color: #141414;
+  background-color: #222533;
   padding: 1.25rem 0;
 }
 
