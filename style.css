@@ -41,12 +41,13 @@ body {
 /* TYPOGRAPHY */
 h1, h2 {
   font-family: "Kavoon", cursive;
+  text-align: center;
 }
 
 h1 { font-size: 3em; text-align: center; }
 h2 { font-size: 2em; margin-bottom: 1rem; text-align: center; }
-h3 { font-size: 1.5em; margin-bottom: 0.75rem; }
-h4 { font-size: 1.15em; margin-bottom: 0.35rem; }
+h3 { font-size: 1.5em; margin-bottom: 0.75rem;text-align: center; }
+h4 { font-size: 1.15em; margin-bottom: 0.35rem;text-align: center; }
 
 /* HEADER */
 .header {
@@ -130,7 +131,7 @@ h4 { font-size: 1.15em; margin-bottom: 0.35rem; }
   padding: 0;
 }
 
-/* Each block matches the mockup’s bold colored rectangles */
+
 .why-list li {
   padding: 1rem;
   border-radius: 10px;
@@ -140,22 +141,25 @@ h4 { font-size: 1.15em; margin-bottom: 0.35rem; }
   text-align: center;
 }
 
-/* Individual block colors from your palette */
+
 .why-list li:nth-child(1) {
-  background: var(--teal);       /* Personalized Approach */
+  background: var(--teal); 
+  color: var(--dark-gray);       
 }
 
 .why-list li:nth-child(2) {
-  background: var(--lavender);   /* Proven Results */
+  background: var(--lavender);
+  color: var(--dark-gray);    
 }
 
 .why-list li:nth-child(3) {
-  background: var(--yellow);     /* Supportive Environment */
-  color: var(--dark-gray);       /* Yellow needs dark text */
+  background: var(--yellow);     
+  color: var(--dark-gray);       
 }
 
 .why-list li:nth-child(4) {
-  background: var(--white);       /* Flexible Options */
+  background: var(--white);
+  color: var(--dark-gray);        
 }
 
 /* PRICING */
@@ -169,6 +173,7 @@ h4 { font-size: 1.15em; margin-bottom: 0.35rem; }
 }
 
 table {
+  color: #222533;
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
